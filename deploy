@@ -1,5 +1,4 @@
--#!/bin/sh     
-cd /home/ubuntu/jenkinsTesting/
+#!/bin/sh     
  sudo git pull origin master      
  npm install    
  sudo pm2 start index.js
