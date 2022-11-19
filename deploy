@@ -1,6 +1,6 @@
-#!/bin/sh     
+-#!/bin/sh    
  sudo git pull origin master      
  npm install    
- sudo pm2 start index.js
+ sudo pm2 restart index.js
  exit      
 EOF
