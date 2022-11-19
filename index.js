@@ -2,7 +2,7 @@ const express=require("express");
 const app=express();
 app.get("/testing",(req,res)=>{
     return res.status(200).json({
-        message:"wap institute"
+        message:"wap institute testing"
     })
 })
 app.get((req,res,next)=>{
