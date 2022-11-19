@@ -9,7 +9,7 @@ app.get((req,res,next)=>{
     console.log("not found")
 })
 app.get((err,req,res,next)=>{
-    console.log(err);
+    console.log(err); 
     // console.log("not found")
 })
 
