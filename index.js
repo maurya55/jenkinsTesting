@@ -2,7 +2,7 @@ const express=require("express");
 const app=express();
 app.get("/testing",(req,res)=>{
     return res.status(200).json({
-        message:"ho gya thank you for youtube 99"
+        message:"ho gya thank you train with shubham"
     })
 })
 app.get((req,res,next)=>{
